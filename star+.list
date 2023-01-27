@@ -1,3 +1,8 @@
  # > Star+
-  # 此条分流只是让 Star+ 串流时走 US 节点，需搭配 Star+ 相关分流使用
-  - DOMAIN-SUFFIX,media.starott.com
+DOMAIN-SUFFIX,media.starott.com,Star+
+DOMAIN-SUFFIX,starplus.com,Star+
+DOMAIN-SUFFIX,starott.com,Star+
+DOMAIN,star.api.edge.bamgrid.com,Star+
+DOMAIN,star.connections.edge.bamgrid.com,Star+
+DOMAIN,star.content.edge.bamgrid.com,Star+
+DOMAIN,star.playback.edge.bamgrid.com,Star+
