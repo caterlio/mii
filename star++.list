@@ -1,4 +1,4 @@
 payload:
   # > Star+
   # 此条分流只是让 Star+ 串流时走 US 节点，需搭配 Star+ 相关分流使用
-  - DOMAIN-SUFFIX,media.starott.com
+  - DOMAIN-SUFFIX,media.starott.com,🇺🇲 美国节点
