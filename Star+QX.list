@@ -1,0 +1,9 @@
+# > Star+
+# USER-AGENT,Star+
+# PROCESS-NAME,com.disney.starplus
+HOST-SUFFIX,starplus.com,Star+
+HOST-SUFFIX,starott.com,Star+
+HOST,star.api.edge.bamgrid.com,Star+
+HOST,star.connections.edge.bamgrid.com,Star+
+HOST,star.content.edge.bamgrid.com,Star+
+HOST,star.playback.edge.bamgrid.com,Star+
