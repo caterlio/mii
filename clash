@@ -1,42 +1,42 @@
 [custom]
 
-ruleset=✅ Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-ruleset=✅ Direct,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.list
-ruleset=✅ Direct,https://raw.githubusercontent.com/caterlio/mii/main/direct.list
+ruleset=🔛 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=🔛 Direct,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.list
+ruleset=🔛 Direct,https://raw.githubusercontent.com/caterlio/mii/main/direct.list
 ruleset=⛔️ Ban,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=⛔️ Ban,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
 ruleset=⏬ pikpak,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PikPak/PikPak.list
 ruleset=🔞 iKoa,https://raw.githubusercontent.com/caterlio/mii/main/ikoa.list
 ruleset=📺 Youtube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list
-ruleset=🎬 Netflix,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list
-ruleset=📽 Emby,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.list
+ruleset=🎥 Netflix,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list
+ruleset=🎞️ Emby,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.list
 ruleset=✖️ X,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list
 ruleset=📲 Telegram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list
-ruleset=🎾 Star+,https://raw.githubusercontent.com/caterlio/mii/main/star%2B.list
-ruleset=🎾 Star+,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list
+ruleset=⭐️ Star+,https://raw.githubusercontent.com/caterlio/mii/main/star%2B.list
+ruleset=⭐️ Star+,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list
 ruleset=TV+,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleTV/AppleTV.list
 ruleset=🌍 GlobalMedia,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list
 ruleset=Ⓜ️ Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list
 ruleset=Ⓜ️ Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.list
 ruleset=🛟 Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list
 ruleset=🍎 Apple,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list
-ruleset=☑️ 节点选择,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list
-ruleset=✅ Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-ruleset=✅ Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-ruleset=✅ Direct,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.list
-ruleset=✅ Direct,[]GEOIP,CN
-ruleset=🐠 FINAL,[]FINAL
+ruleset=✔️ 节点选择,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list
+ruleset=🔛 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🔛 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🔛 Direct,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.list
+ruleset=🔛 Direct,[]GEOIP,CN
+ruleset=♾️ FINAL,[]FINAL
 
 ;设置分组标志位
-custom_proxy_group=☑️ 节点选择`select`🇭🇰`HK`[]🕹 手动切换`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点`[]DIRECT
+custom_proxy_group=✔️ 节点选择`select`🇭🇰`HK`[]🕹 手动切换`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点`[]DIRECT
 custom_proxy_group=🕹 手动切换`select`.*
 custom_proxy_group=📺 Youtube`select`[]☑️ 节点选择`[]🕹 手动切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点`[]DIRECT
-custom_proxy_group=🎬 Netflix`select`[]☑️ 节点选择`[]🕹 手动切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点`[]DIRECT
-custom_proxy_group=📽 Emby`select`[]☑️ 节点选择`[]🕹 手动切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点`[]DIRECT
-custom_proxy_group=🎾 Star+`select`[]☑️ 节点选择`[]🕹 手动切换`[]🇺🇲 美国节点`AR|🇦🇷|BR|🇧🇷|🇨🇱|巴西|阿根廷|智利
+custom_proxy_group=🎥 Netflix`select`[]☑️ 节点选择`[]🕹 手动切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点`[]DIRECT
+custom_proxy_group=🎞️ Emby`select`[]☑️ 节点选择`[]🕹 手动切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点`[]DIRECT
+custom_proxy_group=⭐️ Star+`select`[]☑️ 节点选择`[]🕹 手动切换`[]🇺🇲 美国节点`AR|🇦🇷|BR|🇧🇷|🇨🇱|巴西|阿根廷|智利
 custom_proxy_group=✖️ X`select`[]☑️ 节点选择`[]🕹 手动切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点`[]DIRECT
 custom_proxy_group=📲 Telegram`select`[]☑️ 节点选择`[]🕹 手动切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点`[]DIRECT
-custom_proxy_group=🐠 FINAL`select`[]☑️ 节点选择`[]🕹 手动切换`[]🎬 Netflix`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]DIRECT
+custom_proxy_group=♾️ FINAL`select`[]☑️ 节点选择`[]🕹 手动切换`[]🎬 Netflix`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]DIRECT
 custom_proxy_group=🇭🇰 香港节点`select`🇭🇰|香港|HK|港|hongkong|IL
 custom_proxy_group=🇸🇬 狮城节点`select`🇸🇬|新加坡|狮城|SG|Singapore
 custom_proxy_group=🇨🇳 台湾节点`select`台湾|TW|taiwan
@@ -50,7 +50,7 @@ custom_proxy_group=TV+`select`[]DIRECT`[]☑️ 节点选择`[]🕹 手动切
 custom_proxy_group=🛟 Google`select`[]☑️ 节点选择`[]🕹 手动切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点`[]DIRECT
 custom_proxy_group=Ⓜ️ Microsoft`select`[]DIRECT`[]☑️ 节点选择`[]🕹 手动切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点
 custom_proxy_group=🍎 Apple`select`[]DIRECT`[]☑️ 节点选择`[]🕹 手动切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🏳️‍⚧️ 其他节点
-custom_proxy_group=✅ Direct`select`[]DIRECT`[]☑️ 节点选择`[]🕹 手动切换
+custom_proxy_group=🔛 Direct`select`[]DIRECT`[]☑️ 节点选择`[]🕹 手动切换
 custom_proxy_group=⛔️ Ban`select`[]REJECT`[]DIRECT
 ;设置分组标志位
 
