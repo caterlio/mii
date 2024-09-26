@@ -26,6 +26,7 @@ ruleset=♻️ Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/C
 ruleset=♻️ Direct,[]GEOIP,CN
 ruleset=🐠 FINAL,[]FINAL
 ;设置分组标志位
+
 custom_proxy_group=✔️ Proxy`select`🇭🇰`HK`港`🇸🇬`SG`狮城`新加坡`Singapore`[]〰️ sel`[]🇨🇳 台湾`[]🇺🇲 美国`[]🇯🇵 日本`[]🏳️‍⚧️ 其他`[]DIRECT
 custom_proxy_group=〰️ sel`select`.*
 custom_proxy_group=📺 Youtube`select`[]✔️ Proxy`[]〰️ sel`[]🇭🇰 香港`[]🇸🇬 狮城`[]🇨🇳 台湾`[]🇺🇲 美国`[]🇯🇵 日本`[]🏳️‍⚧️ 其他`[]DIRECT
